@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+</head>
+
+<body>
+    <form action="/signup" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+
+        <button type="submit">Sign Up</button>
+
+        <p>Or sign up with:</p>
+        <button type="button"><i class="fa-brands fa-google"></i></button>
+        <button type="button"> <i class="fa-brands fa-facebook"></i></button>
+    </form>
+</body>
+<script src="https://kit.fontawesome.com/63009a3ee4.js" crossorigin="anonymous"></script>
+
+</html>
