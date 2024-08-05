@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="filters">
+            <select name="category">
+                <option value="">All Categories</option>
+                <option value="shoes">Shoes</option>
+                <option value="clothing">Clothing</option>
+            </select>
+            <select name="price">
+                <option value="">All Prices</option>
+                <option value="0-50">$0 - $50</option>
+                <option value="50-100">$50 - $100</option>
+                <option value="100-200">$100 - $200</option>
+            </select>
+            <select name="size">
+                <option value="">All Sizes</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+            </select>
+            <input type="text" name="search" placeholder="Search products...">
+            <button>Filter</button>
+        </div>
+
+        <div class="product-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <div class="price">$49.99</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <div class="price">$59.99</div>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Repeat for other products -->
+        </div>
+
+        <div class="pagination">
+            <a href="#">&laquo; Previous</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Next &raquo;</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 StrideFashion. All rights reserved.</p>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">FAQ</a>
+    </div>
+</body>
+
+</html>
