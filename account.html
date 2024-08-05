@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Account Settings</h1>
+    <!-- Other account settings here -->
+
+    <!-- Delete Account Button -->
+    <button class="delete-account" onclick="showConfirmation()">Delete Account</button>
+
+    <!-- Confirmation Dialog -->
+    <div class="confirmation" id="confirmation">
+        <p>Are you sure you want to delete your account? This action cannot be undone.</p>
+        <button class="confirm" onclick="deleteAccount()">Yes, Delete</button>
+        <button class="cancel" onclick="hideConfirmation()">Cancel</button>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 StrideFashion. All rights reserved.</p>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    <a href="#">FAQ</a>
+</div>
+</body>
+</html>
